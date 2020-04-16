@@ -1,7 +1,6 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
 /tmp
 /out-tsc
 # Only exists if Bazel was run
@@ -44,3 +43,19 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+
+!/.idea/
+!/src/
+!/package.json
+!/browserslist
+!/README.md
+!/tsconfig.app.json
+!/tsconfig.json
+!/angular.json
+!/ngsw-config.json
+!/package-lock.json
+!/.gitignore
+!/server.ts
+!/tsconfig.server.json
+/dist/
